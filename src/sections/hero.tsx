@@ -4,6 +4,7 @@ import MotionDiv from "@/components/motion-div";
 import Image from "next/image";
 import OrbitingCircles from "@/components/magicui/orbiting-circles";
 import { OrbitingCirclesDemo } from "@/app/OrbitingCirclesDemo";
+import WordRotate from "@/components/magicui/word-rotate";
 
 export default function hero() {
   return (
@@ -39,11 +40,16 @@ export default function hero() {
         
       </div>
       <OrbitingCirclesDemo />
-      <h1>
+      {/* <h1>
         <MotionDiv delayOffset={0.8}>DevOps Engineer 🧑🏻‍💻</MotionDiv>
-      </h1>
+      </h1> */}
       <h1>
-        <MotionDiv delayOffset={1}>React Developer</MotionDiv>
+        <MotionDiv delayOffset={1}>  
+          <WordRotate
+            className="text-3xl font-bold text-black dark:text-white"
+            words={["DevOps Engineer ✨", "React Developer 🧑🏻‍💻"]}
+          />
+        </MotionDiv>
       </h1>
       <div className="my-12 flex w-full flex-col gap-2 text-center lg:w-[50%]">
         <MotionDiv delayOffset={1.2}>
