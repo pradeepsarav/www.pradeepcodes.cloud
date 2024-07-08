@@ -12,7 +12,7 @@ export default function hero() {
         <MotionText delayOffset={0}>Hi, I'm Pradeep Saravanan! 👋</MotionText>
       </h1>
       <div className="overflow-hidden rounded-full p-3 md:p-4">
-        <MotionDiv>
+        {/* <MotionDiv> */}
           {/* <video
             className="h-[170px] w-[170px] md:h-[190px] md:w-[190px]"
             muted
@@ -33,7 +33,7 @@ export default function hero() {
             className="h-[170px] w-[170px] md:h-[190px] md:w-[190px]"
           /> */}
 
-        </MotionDiv>
+        {/* </MotionDiv> */}
         
         
         
