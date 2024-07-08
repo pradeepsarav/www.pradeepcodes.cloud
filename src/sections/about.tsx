@@ -14,10 +14,8 @@ export default function about() {
         <article className="flex flex-col gap-4">
           <MotionDiv delayOffset={0.4}>
             <p>
-              Hello, I'm Eric Huang and my Chinese is
-              <span className="whitespace-nowrap"> 黄士崧(huáng shì sōng)</span>
-              . I'm an independent <b>TypeScript Full-Stack</b> developer based
-              in Nanning, China.
+              Hello, I'm Pradeep Saravanan. I'm a React developer turned <b className="text-[#FF9900]">DevOps Engineer</b> based
+              in Coimbatore, India.
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.5}>
@@ -29,32 +27,23 @@ export default function about() {
               apps that can make a difference in people's lives.
             </p>
           </MotionDiv>
-          <MotionDiv delayOffset={0.6}>
-            <p>
-              Outside of programming, I am also a photographer and filmmaker, I
-              enjoy doing photography and filmmaking and all things visual. I
-              hope my works can aspires people to see the beauty of the world
-              around us. So welcome to subscribe to my social media channels
-              above to see my works!
-            </p>
-          </MotionDiv>
         </article>
       </div>
       <div className="lg:order-2 lg:w-1/3">
         <MotionDiv delayOffset={0.4}>
           <CoolPortraitCard className="hidden lg:block">
             <img
-              src="/photo.jpeg"
-              alt="photo"
-              className="w-[350px] min-w-[300px] rounded-xl transition-all"
+              src="/photo-pradeep.jpeg"
+              alt="photo-pradeep"
+              className="w-[280px] min-w-[250px] rounded-xl transition-all"
             />
           </CoolPortraitCard>
         </MotionDiv>
         <MotionDiv delayOffset={0.4}>
           <img
-            src="/photo.jpeg"
-            alt="photo"
-            className="w-[350px] min-w-[300px] rounded-xl transition-all hover:rotate-3 hover:scale-105 lg:hidden"
+            src="/photo-pradeep.jpeg"
+            alt="photo-pradeep"
+            className="w-[280px] min-w-[25px] rounded-xl transition-all hover:rotate-3 hover:scale-105 lg:hidden"
           />
         </MotionDiv>
       </div>

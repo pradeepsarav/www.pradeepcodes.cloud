@@ -19,7 +19,7 @@ export default function Header() {
               goldenSignature.className,
             )}
           >
-            <Link href="/">Eric Huang</Link>
+            <Link href="/">Pradeep Saravanan</Link>
           </div>
           <div className="nav-links flex gap-x-8 text-xs md:text-base">
             {links.map((link) => (

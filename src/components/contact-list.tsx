@@ -25,34 +25,33 @@ const contacts: Contact[] = [
   {
     name: "Email",
     className: "bg-yellow-500 hover:bg-yellow-600",
-    href: "mailto:erich2s0103@gmail.com",
+    href: "mailto:pradeepmsblogspot@gmail.com",
     icon: faEnvelope,
   },
-
   {
     name: "X",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://twitter.com/erich2s",
+    href: "https://twitter.com/pradeepsarav28",
     icon: faXTwitter,
   },
   {
     name: "Github",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://github.com/erich2s",
+    href: "https://github.com/pradeepmsmallowtech",
     icon: faGithub,
   },
-  {
-    name: "Instagram",
-    className: "bg-pink-500 hover:bg-pink-600",
-    href: "https://instagram.com/eric.h2s/",
-    icon: faInstagram,
-  },
-  {
-    name: "TikTok",
-    className: "bg-black hover:bg-gray-800/90",
-    href: "https://tiktok.com/@erich2s",
-    icon: faTiktok,
-  },
+  // {
+  //   name: "Instagram",
+  //   className: "bg-pink-500 hover:bg-pink-600",
+  //   href: "https://instagram.com/eric.h2s/",
+  //   icon: faInstagram,
+  // },
+  // {
+  //   name: "TikTok",
+  //   className: "bg-black hover:bg-gray-800/90",
+  //   href: "https://tiktok.com/@erich2s",
+  //   icon: faTiktok,
+  // },
 ];
 export default function ContactList({
   delayOffset = 0,

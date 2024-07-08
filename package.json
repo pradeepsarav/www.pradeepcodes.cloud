@@ -1,5 +1,5 @@
 {
-  "name": "eric-portfolio-website",
+  "name": "pradeep-saravanan-portfolio-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -35,6 +35,8 @@
     "typescript": "5.3.3"
   },
   "devDependencies": {
+    "eslint": "9.6.0",
+    "eslint-config-next": "14.2.4",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11"
   }

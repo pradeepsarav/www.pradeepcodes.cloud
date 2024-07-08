@@ -1,6 +1,6 @@
-# Eric Huang Personal Portfolio Website 🧑🏻‍💻
+# Pradeep Saravanan Personal Portfolio Website 🧑🏻‍💻
 
-Link: [erichuang.art](https://erichuang.art)
+Link: [pradeepcodes.cloud](https://pradeepcodes.cloud)
 
 A super clean personal portfolio website, built with:
 
