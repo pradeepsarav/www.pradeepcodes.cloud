@@ -2,13 +2,15 @@
 import Link from "next/link";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
+import { useRouter } from 'next/navigation'
 const goldenSignature = localFont({
   src: "../assets/GoldenSignature.otf",
   display: "swap",
 });
 
 export default function Header() {
-  const links = ["about", "skills", "contact"];
+  const router = useRouter();
+  const links = ["about", "skills", "contact", "blog"];
   return (
     <>
       <nav className="justify-centerpy-2 flex w-full select-none pt-6 font-light md:px-28 md:pb-2">
@@ -22,8 +24,16 @@ export default function Header() {
             <Link href="/">Pradeep Saravanan</Link>
           </div>
           <div className="nav-links flex gap-x-8 text-xs md:text-base">
-            {links.map((link) => (
-              <span
+            {links.map((link, index ) => 
+                index === 3 ?  <span
+                key={link}
+                className="cursor-pointer"
+                onClick={() => {
+                  router.push("/blog");
+                }}
+              >
+                {link.charAt(0).toUpperCase() + link.slice(1)}
+              </span> :  <span
                 key={link}
                 className="cursor-pointer"
                 onClick={() => {
@@ -34,7 +44,7 @@ export default function Header() {
               >
                 {link.charAt(0).toUpperCase() + link.slice(1)}
               </span>
-            ))}
+            )}
           </div>
         </div>
       </nav>
