@@ -28,7 +28,7 @@ export default async function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 max-w-7xl mx-auto w-full">
 
             {articles.map((article:any) => (          
-              <Link href={`/articles/${article.slug}`}>
+              <Link href={`/blog/articles/${article.slug}`}>
                 <WobbleCard
                   containerClassName="col-span-1 lg:col-span-2 h-full min-h-[500px] lg:min-h-[300px]"
                   className=""
