@@ -43,7 +43,7 @@ export default async function KnowledgeArticlePage({
             />
             <div className="space-y-4 md:space-y-6">
               <div className="space-y-2">
-                <div className="max-w-[900px] text-zinc-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">
+                <div className="max-w-[900px] text-zinc-500 mt-10 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">
                   {documentToReactComponents(article.details.json)}
                 </div>
               </div>

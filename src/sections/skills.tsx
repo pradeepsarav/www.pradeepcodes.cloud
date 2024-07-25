@@ -88,31 +88,31 @@ export default function skills() {
         },
       ],
     },
-    {
-      title: "Backend Development",
-      skills: [
-        {
-          name: "Nest.js",
-          icon: nestjsIcon,
-        },
-        {
-          name: "Express.js",
-          icon: expressjsIcon,
-        },
-        {
-          name: "Node.js",
-          icon: nodejsIcon,
-        },
-        {
-          name: "Prisma ORM",
-          icon: prismaIcon,
-        },
-        {
-          name: "PostgreSQL",
-          icon: postgresIcon,
-        },
-      ],
-    },
+    // {
+    //   title: "Backend Development",
+    //   skills: [
+    //     {
+    //       name: "Nest.js",
+    //       icon: nestjsIcon,
+    //     },
+    //     {
+    //       name: "Express.js",
+    //       icon: expressjsIcon,
+    //     },
+    //     {
+    //       name: "Node.js",
+    //       icon: nodejsIcon,
+    //     },
+    //     {
+    //       name: "Prisma ORM",
+    //       icon: prismaIcon,
+    //     },
+    //     {
+    //       name: "PostgreSQL",
+    //       icon: postgresIcon,
+    //     },
+    //   ],
+    // },
     {
       title: "Mobile Development",
       skills: [

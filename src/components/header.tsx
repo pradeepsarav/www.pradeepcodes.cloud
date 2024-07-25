@@ -10,7 +10,7 @@ const goldenSignature = localFont({
 
 export default function Header() {
   const router = useRouter();
-  const links = ["home", "blog", "notes"];
+  const links = ["home", "blog"];
   return (
     <>
       <nav className="justify-centerpy-2 flex w-full select-none pt-6 font-light md:px-28 md:pb-2">
